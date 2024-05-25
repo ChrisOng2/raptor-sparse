@@ -1,0 +1,1305 @@
+Start testing: May 24 16:20 MDT
+----------------------------------------------------------
+1/10 Testing: ParCommTest
+1/10 Test: ParCommTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_comm"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"ParCommTest" start time: May 24 16:20 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] [==========] ParCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParCommTest
+[ RUN      ] ParCommTest.TestsInCore
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (231 ms)
+[----------] 1 test from ParCommTest (231 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (231 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (231 ms)
+[----------] 1 test from ParCommTest (231 ms total)
+
+[----------] Global test environment tear-down
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (230 ms)
+[----------] 1 test from ParCommTest (230 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (230 ms total)
+[  PASSED  ] 1 test.
+[==========] 1 test from 1 test suite ran. (231 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParCommTest.TestsInCore (231 ms)
+[----------] 1 test from ParCommTest (231 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (231 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.07 sec
+----------------------------------------------------------
+Test Passed.
+"ParCommTest" end time: May 24 16:20 MDT
+"ParCommTest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/10 Testing: TAPCommTest
+2/10 Test: TAPCommTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_tap_comm"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"TAPCommTest" start time: May 24 16:20 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPCommTest
+[ RUN      ] TAPCommTest.TestsInCore
+[       OK ] TAPCommTest.TestsInCore (745 ms)
+[----------] 1 test from TAPCommTest (745 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (745 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (765 ms)
+[----------] 1 test from TAPCommTest (765 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (765 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (765 ms)
+[----------] 1 test from TAPCommTest (765 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (765 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (766 ms)
+[----------] 1 test from TAPCommTest (766 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (766 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (748 ms)
+[----------] 1 test from TAPCommTest (748 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (749 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (755 ms)
+[----------] 1 test from TAPCommTest (755 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (756 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (778 ms)
+[----------] 1 test from TAPCommTest (778 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (778 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (750 ms)
+[----------] 1 test from TAPCommTest (750 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (750 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (747 ms)
+[----------] 1 test from TAPCommTest (747 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (747 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (787 ms)
+[----------] 1 test from TAPCommTest (787 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (787 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (771 ms)
+[----------] 1 test from TAPCommTest (771 ms total)
+
+[----------] [       OK ] TAPCommTest.TestsInCore (764 ms)
+[----------] 1 test from TAPCommTest (764 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (764 ms total)
+[  PASSED  ] 1 test.
+Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (771 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (761 ms)
+[----------] 1 test from TAPCommTest (761 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (762 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (771 ms)
+[----------] 1 test from TAPCommTest (771 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (771 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (750 ms)
+[----------] 1 test from TAPCommTest (750 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (750 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPCommTest.TestsInCore (753 ms)
+[----------] 1 test from TAPCommTest (753 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (753 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.42 sec
+----------------------------------------------------------
+Test Passed.
+"TAPCommTest" end time: May 24 16:20 MDT
+"TAPCommTest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/10 Testing: ParMatrixTest
+3/10 Test: ParMatrixTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_matrix"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"ParMatrixTest" start time: May 24 16:20 MDT
+Output:
+----------------------------------------------------------
+[==========] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTestRunning 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+
+[       OK ] ParMatrixTest.TestsInCore (309 ms)
+[----------] 1 test from ParMatrixTest (309 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (309 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (308 ms)
+[----------] 1 test from ParMatrixTest (308 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (308 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (317 ms)
+[----------] 1 test from ParMatrixTest (317 ms total)
+
+[----------] Global test environment tear-down
+[==========] [       OK ] ParMatrixTest.TestsInCore (300 ms)
+[----------] 1 test from ParMatrixTest (300 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (300 ms total)
+[  PASSED  ] 1 test.
+1 test from 1 test suite ran. (317 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (297 ms)
+[----------] 1 test from ParMatrixTest (311 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (311 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (311 ms)
+[----------] 1 test from ParMatrixTest (311 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (311 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (311 ms)
+[----------] 1 test from ParMatrixTest (311 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (311 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (321 ms)
+[----------] 1 test from ParMatrixTest (321 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (321 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (321 ms)
+[----------] 1 test from ParMatrixTest (321 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (321 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (321 ms)
+[----------] 1 test from ParMatrixTest (321 ms total)
+
+[----------] [       OK ] ParMatrixTest.TestsInCore (320 ms)
+[----------] 1 test from ParMatrixTest (320 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (320 ms total)
+[  PASSED  ] 1 test.
+Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (321 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (313 ms)
+[----------] 1 test from ParMatrixTest (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (313 ms total)[       OK ] ParMatrixTest.TestsInCore (313 ms)
+[----------] 1 test from ParMatrixTest (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (323 ms total)
+[  PASSED  ] [       OK ] ParMatrixTest.TestsInCore (313 ms)
+[       OK ] ParMatrixTest.TestsInCore (313 ms)
+[----------] 1 test from ParMatrixTest (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (313 ms total)
+[  PASSED  ] [----------] 1 test from ParMatrixTest (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (313 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (323 ms)
+[----------] 1 test from ParMatrixTest (323 ms total)
+
+[----------] Global test environment tear-down
+1 test.
+1 test.
+[==========] 1 test from 1 test suite ran. (323 ms total)
+[  PASSED  ] 1 test.
+
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"ParMatrixTest" end time: May 24 16:20 MDT
+"ParMatrixTest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/10 Testing: ParVectorTest
+4/10 Test: ParVectorTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_vector"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"ParVectorTest" start time: May 24 16:20 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[==========] [       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] [  PASSED  ] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+1 test.
+1 test from 1 test suite ran.[       OK ] ParVectorTest.TestsInCore (0 ms total)
+[  PASSED  ] 1 test.
+ (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParVectorTest
+[ RUN      ] ParVectorTest.TestsInCore
+[       OK ] ParVectorTest.TestsInCore (0 ms)
+[----------] 1 test from ParVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"ParVectorTest" end time: May 24 16:20 MDT
+"ParVectorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: ParTransposeTest
+5/10 Test: ParTransposeTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_transpose"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"ParTransposeTest" start time: May 24 16:20 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[ RUN      ] ParMatrixTest.TestsInCore
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixTest
+[ RUN      ] ParMatrixTest.TestsInCore
+
+[ RUN      ] ParMatrixTest.TestsInCore
+[       OK ] ParMatrixTest.TestsInCore (1418 ms)
+[----------] 1 test from ParMatrixTest (1418 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1418 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1421 ms)
+[----------] 1 test from ParMatrixTest (1421 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1421 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1422 ms)
+[----------] 1 test from ParMatrixTest (1422 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1422 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1423 ms)
+[----------] 1 test from ParMatrixTest (1423 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1423 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1424 ms)
+[----------] 1 test from ParMatrixTest (1424 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1424 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1424 ms)
+[----------] 1 test from ParMatrixTest (1424 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1424 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1425 ms)
+[----------] 1 test from ParMatrixTest (1425 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1425 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1425 ms)
+[----------] 1 test from ParMatrixTest (1425 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1425 ms total)[       OK ] ParMatrixTest.TestsInCore (1426 ms)
+[----------] 1 test from ParMatrixTest (1426 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1426 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1425 ms)
+[----------] 1 test from ParMatrixTest (1425 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1425 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1425 ms)
+[----------] 1 test from ParMatrixTest (1425 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1425 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1426 ms)
+[----------] 1 test from ParMatrixTest (1426 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1426 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1426 ms)
+[----------] 1 test from ParMatrixTest (1426 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1426 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1426 ms)
+[----------] 1 test from ParMatrixTest (1426 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1426 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1426 ms)
+[----------] 1 test from ParMatrixTest (1426 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1426 ms total)
+[  PASSED  ] 1 test.
+
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixTest.TestsInCore (1426 ms)
+[----------] 1 test from ParMatrixTest (1426 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1426 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.01 sec
+----------------------------------------------------------
+Test Passed.
+"ParTransposeTest" end time: May 24 16:21 MDT
+"ParTransposeTest" time elapsed: 00:00:02
+----------------------------------------------------------
+
+6/10 Testing: ParBlockMatrixTest
+6/10 Test: ParBlockMatrixTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_block_matrix"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"ParBlockMatrixTest" start time: May 24 16:21 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockMatrixTest
+[ RUN      ] ParBlockMatrixTest.TestsInCore
+[       OK ] ParBlockMatrixTest.TestsInCore (1266 ms)
+[----------] 1 test from ParBlockMatrixTest (1266 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1266 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1332 ms)
+[----------] 1 test from ParBlockMatrixTest (1332 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1332 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1325 ms)
+[----------] 1 test from ParBlockMatrixTest (1325 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1325 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1338 ms)
+[----------] 1 test from ParBlockMatrixTest (1338 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1338 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1321 ms)
+[----------] 1 test from ParBlockMatrixTest (1321 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1321 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1331 ms)
+[----------] 1 test from ParBlockMatrixTest (1331 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1331 ms total)
+[  PASSED  ] [       OK ] ParBlockMatrixTest.TestsInCore (1348 ms)
+[----------] 1 test from ParBlockMatrixTest (1348 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1348 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1328 ms)
+[----------] 1 test from ParBlockMatrixTest (1328 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1328 ms total)
+[  PASSED  ] [       OK ] ParBlockMatrixTest.TestsInCore (1291 ms)
+[----------] 1 test from ParBlockMatrixTest (1291 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1291 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1340 ms)
+[----------] 1 test from ParBlockMatrixTest (1340 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1341 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1338 ms)
+[----------] 1 test from ParBlockMatrixTest (1338 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1338 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1336 ms)
+[----------] 1 test from ParBlockMatrixTest (1337 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1337 ms total)
+[  PASSED  ] 1 test.
+1 test.
+1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1298 ms)
+[----------] 1 test from ParBlockMatrixTest (1298 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1298 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1351 ms)
+[----------] 1 test from ParBlockMatrixTest (1351 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1351 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1351 ms)
+[----------] 1 test from ParBlockMatrixTest (1351 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1351 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockMatrixTest.TestsInCore (1351 ms)
+[----------] 1 test from ParBlockMatrixTest (1351 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1351 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.09 sec
+----------------------------------------------------------
+Test Passed.
+"ParBlockMatrixTest" end time: May 24 16:21 MDT
+"ParBlockMatrixTest" time elapsed: 00:00:02
+----------------------------------------------------------
+
+7/10 Testing: ParBlockConversionTest
+7/10 Test: ParBlockConversionTest
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_block_conversion"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"ParBlockConversionTest" start time: May 24 16:21 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+ParBlockConversionTest.TestsInCore
+[==========] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParBlockConversionTest
+[ RUN      ] ParBlockConversionTest.TestsInCore
+[       OK ] ParBlockConversionTest.TestsInCore (1327 ms)
+[----------] 1 test from ParBlockConversionTest (1327 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1327 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1312 ms)
+[----------] 1 test from ParBlockConversionTest (1312 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1312 ms total)
+[       OK ] ParBlockConversionTest.TestsInCore (1327 ms)
+[----------] 1 test from ParBlockConversionTest (1327 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1327 ms total)
+[  PASSED  ] 1 test.
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1320 ms)
+[----------] 1 test from ParBlockConversionTest (1320 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1320 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1314 ms)
+[----------] 1 test from ParBlockConversionTest (1314 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1315 ms total)
+[  PASSED  ] [       OK ] ParBlockConversionTest.TestsInCore (1341 ms)
+[----------] 1 test from ParBlockConversionTest (1341 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1341 ms total)
+[  PASSED  ] 1 test.
+1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1341 ms)
+[----------] 1 test from ParBlockConversionTest (1341 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1341 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1321 ms)
+[----------] 1 test from ParBlockConversionTest (1321 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1321 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1340 ms)
+[----------] 1 test from ParBlockConversionTest (1340 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1340 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore[       OK ] ParBlockConversionTest.TestsInCore (1334 ms)
+[----------] 1 test from ParBlockConversionTest (1334 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1334 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1344 ms)
+[----------] 1 test from ParBlockConversionTest (1344 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1344 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1323 ms)
+[----------] 1 test from ParBlockConversionTest (1323 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1323 ms total)
+[  PASSED  ] 1 test.
+ (1337 ms)
+[----------] 1 test from ParBlockConversionTest (1338 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1338 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1342 ms)
+[----------] 1 test from ParBlockConversionTest (1342 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1342 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1344 ms)
+[----------] 1 test from ParBlockConversionTest (1344 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1344 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParBlockConversionTest.TestsInCore (1317 ms)
+[----------] 1 test from ParBlockConversionTest (1317 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1317 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.04 sec
+----------------------------------------------------------
+Test Passed.
+"ParBlockConversionTest" end time: May 24 16:21 MDT
+"ParBlockConversionTest" time elapsed: 00:00:02
+----------------------------------------------------------
+
+8/10 Testing: MatrixTest
+8/10 Test: MatrixTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests/test_matrix"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"MatrixTest" start time: May 24 16:21 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixTest
+[ RUN      ] MatrixTest.TestsInCore
+[       OK ] MatrixTest.TestsInCore (0 ms)
+[----------] 1 test from MatrixTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixTest" end time: May 24 16:21 MDT
+"MatrixTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: TransposeTest
+9/10 Test: TransposeTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests/test_transpose"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"TransposeTest" start time: May 24 16:21 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixTest
+[ RUN      ] MatrixTest.TestsInCore
+Loading files /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/src/tests/aniso.pm and /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/src/tests/aniso_T.pm
+Loading files /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/src/tests/laplacian.pm and /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/src/tests/laplacian_T.pm
+[       OK ] MatrixTest.TestsInCore (12 ms)
+[----------] 1 test from MatrixTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TransposeTest" end time: May 24 16:21 MDT
+"TransposeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: BSRMatrixTest
+10/10 Test: BSRMatrixTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests/test_bsr_matrix"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/core/tests
+"BSRMatrixTest" start time: May 24 16:21 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BSRMatrixTest
+[ RUN      ] BSRMatrixTest.TestsInCore
+[       OK ] BSRMatrixTest.TestsInCore (0 ms)
+[----------] 1 test from BSRMatrixTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"BSRMatrixTest" end time: May 24 16:21 MDT
+"BSRMatrixTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 24 16:21 MDT

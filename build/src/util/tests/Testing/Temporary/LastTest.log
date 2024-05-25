@@ -1,0 +1,2348 @@
+Start testing: May 24 21:25 MDT
+----------------------------------------------------------
+1/33 Testing: LaplacianSpMVTest
+1/33 Test: LaplacianSpMVTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests/test_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"LaplacianSpMVTest" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LaplacianSpMVTest
+[ RUN      ] LaplacianSpMVTest.TestsInUtil
+[       OK ] LaplacianSpMVTest.TestsInUtil (4 ms)
+[----------] 1 test from LaplacianSpMVTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"LaplacianSpMVTest" end time: May 24 21:25 MDT
+"LaplacianSpMVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/33 Testing: AnisoSpMVTest
+2/33 Test: AnisoSpMVTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests/test_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"AnisoSpMVTest" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnisoSpMVTest
+[ RUN      ] AnisoSpMVTest.TestsInUtil
+[       OK ] AnisoSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from AnisoSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AnisoSpMVTest" end time: May 24 21:25 MDT
+"AnisoSpMVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/33 Testing: RandomSpMVTest
+3/33 Test: RandomSpMVTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests/test_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"RandomSpMVTest" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RandomSpMVTest
+[ RUN      ] RandomSpMVTest.TestsInUtil
+[       OK ] RandomSpMVTest.TestsInUtil (0 ms)
+[----------] 1 test from RandomSpMVTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RandomSpMVTest" end time: May 24 21:25 MDT
+"RandomSpMVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/33 Testing: BSRLaplacianSpMVTest
+4/33 Test: BSRLaplacianSpMVTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests/test_bsr_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"BSRLaplacianSpMVTest" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LaplacianSpMVTest
+[ RUN      ] LaplacianSpMVTest.TestsInUtil
+[       OK ] LaplacianSpMVTest.TestsInUtil (3 ms)
+[----------] 1 test from LaplacianSpMVTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BSRLaplacianSpMVTest" end time: May 24 21:25 MDT
+"BSRLaplacianSpMVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/33 Testing: BSRAnisoSpMVTest
+5/33 Test: BSRAnisoSpMVTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests/test_bsr_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"BSRAnisoSpMVTest" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AnisoSpMVTest
+[ RUN      ] AnisoSpMVTest.TestsInUtil
+[       OK ] AnisoSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from AnisoSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BSRAnisoSpMVTest" end time: May 24 21:25 MDT
+"BSRAnisoSpMVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/33 Testing: BSRRandomSpMVTest
+6/33 Test: BSRRandomSpMVTest
+Command: "/Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests/test_bsr_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"BSRRandomSpMVTest" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RandomSpMVTest
+[ RUN      ] RandomSpMVTest.TestsInUtil
+[       OK ] RandomSpMVTest.TestsInUtil (0 ms)
+[----------] 1 test from RandomSpMVTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BSRRandomSpMVTest" end time: May 24 21:25 MDT
+"BSRRandomSpMVTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/33 Testing: ParAddTest1
+7/33 Test: ParAddTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_par_add"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParAddTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[       OK ] ParMatrixAddTest.TestsInUtil (33 ms)
+[----------] 1 test from ParMatrixAddTest (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParAddTest1" end time: May 24 21:25 MDT
+"ParAddTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/33 Testing: ParAddTest16
+8/33 Test: ParAddTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_add"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParAddTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParMatrixAddTest
+[ RUN      ] ParMatrixAddTest.TestsInUtil
+[       OK ] ParMatrixAddTest.TestsInUtil (1007 ms)
+[----------] 1 test from ParMatrixAddTest (1007 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1007 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1042 ms)
+[----------] 1 test from ParMatrixAddTest (1042 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1042 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1051 ms)
+[----------] 1 test from ParMatrixAddTest (1051 ms total)
+
+[----------] Global test environment tear-down
+[==========] [       OK ] ParMatrixAddTest.TestsInUtil (1029 ms)
+[----------] 1 test from ParMatrixAddTest (1029 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1051 ms total)
+[  PASSED  ] 1 test.
+1 test from 1 test suite ran. (1029 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1043 ms)
+[----------] 1 test from ParMatrixAddTest (1043 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1043 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1062 ms)
+[----------] 1 test from ParMatrixAddTest (1062 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1062 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1043 ms)
+[----------] 1 test from ParMatrixAddTest (1043 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1043 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1065 ms)
+[----------] 1 test from ParMatrixAddTest (1065 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1065 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1048 ms)
+[----------] 1 test from ParMatrixAddTest (1048 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1048 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1058 ms)
+[----------] 1 test from ParMatrixAddTest (1058 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1058 ms total)
+[  PASSED  ] [       OK ] ParMatrixAddTest.TestsInUtil (1068 ms)
+[----------] [       OK ] ParMatrixAddTest.TestsInUtil (1040 ms)
+[----------] 1 test from ParMatrixAddTest (1040 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1040 ms total)
+[  PASSED  ] 1 test.
+1 test from ParMatrixAddTest (1068 ms total)
+
+[       OK ] ParMatrixAddTest.TestsInUtil (1068 ms)
+[----------] 1 test from ParMatrixAddTest (1068 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1068 ms total)
+[  PASSED  ] 1 test.
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1068 ms total)
+[  PASSED  ] 1 test.
+1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1049 ms)
+[----------] 1 test from ParMatrixAddTest (1049 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1049 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1038 ms)
+[----------] 1 test from ParMatrixAddTest (1038 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1038 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParMatrixAddTest.TestsInUtil (1040 ms)
+[----------] 1 test from ParMatrixAddTest (1040 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1040 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.68 sec
+----------------------------------------------------------
+Test Passed.
+"ParAddTest16" end time: May 24 21:25 MDT
+"ParAddTest16" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/33 Testing: ParLaplacianSpMVTest1
+9/33 Test: ParLaplacianSpMVTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_par_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParLaplacianSpMVTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (4 ms)
+[----------] 1 test from ParLaplacianSpMVTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ParLaplacianSpMVTest1" end time: May 24 21:25 MDT
+"ParLaplacianSpMVTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/33 Testing: ParLaplacianSpMVTest4
+10/33 Test: ParLaplacianSpMVTest4
+Command: "/opt/homebrew/bin/mpirun" "-n" "4" "./test_par_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParLaplacianSpMVTest4" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (7 ms)
+[----------] 1 test from ParLaplacianSpMVTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (7 ms)
+[----------] 1 test from ParLaplacianSpMVTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (7 ms)
+[----------] 1 test from ParLaplacianSpMVTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (7 ms)
+[----------] 1 test from ParLaplacianSpMVTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"ParLaplacianSpMVTest4" end time: May 24 21:25 MDT
+"ParLaplacianSpMVTest4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/33 Testing: ParLaplacianSpMVTest16
+11/33 Test: ParLaplacianSpMVTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParLaplacianSpMVTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParLaplacianSpMVTest
+[ RUN      ] ParLaplacianSpMVTest.TestsInUtil
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (287 ms)
+[----------] 1 test from ParLaplacianSpMVTest (287 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (288 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (281 ms)
+[----------] 1 test from ParLaplacianSpMVTest (281 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (281 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (260 ms)
+[----------] 1 test from ParLaplacianSpMVTest (281 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (281 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (277 ms)
+[----------] 1 test from ParLaplacianSpMVTest (277 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (277 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (259 ms)
+[----------] 1 test from ParLaplacianSpMVTest (259 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (259 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (289 ms)
+[----------] 1 test from ParLaplacianSpMVTest (289 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (289 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (299 ms)
+[----------] 1 test from ParLaplacianSpMVTest (299 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (299 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (293 ms)
+[----------] 1 test from ParLaplacianSpMVTest (293 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (293 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (279 ms)
+[----------] 1 test from ParLaplacianSpMVTest (279 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (279 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (293 ms)
+[----------] 1 test from ParLaplacianSpMVTest (293 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (293 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (280 ms)
+[----------] 1 test from ParLaplacianSpMVTest (280 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (280 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (283 ms)
+[----------] 1 test from ParLaplacianSpMVTest (283 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (283 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (280 ms)
+[----------] 1 test from ParLaplacianSpMVTest (280 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (280 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (248 ms)
+[----------] 1 test from ParLaplacianSpMVTest (248 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (248 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (291 ms)
+[----------] 1 test from ParLaplacianSpMVTest (291 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (291 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParLaplacianSpMVTest.TestsInUtil (254 ms)
+[----------] 1 test from ParLaplacianSpMVTest (254 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (254 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"ParLaplacianSpMVTest16" end time: May 24 21:25 MDT
+"ParLaplacianSpMVTest16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/33 Testing: ParAnisoSpMVTest1
+12/33 Test: ParAnisoSpMVTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_par_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParAnisoSpMVTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[       OK ] ParAnisoSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from ParAnisoSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ParAnisoSpMVTest1" end time: May 24 21:25 MDT
+"ParAnisoSpMVTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/33 Testing: ParAnisoSpMVTest4
+13/33 Test: ParAnisoSpMVTest4
+Command: "/opt/homebrew/bin/mpirun" "-n" "4" "./test_par_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParAnisoSpMVTest4" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[       OK ] ParAnisoSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from ParAnisoSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from ParAnisoSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from ParAnisoSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from ParAnisoSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ParAnisoSpMVTest4" end time: May 24 21:25 MDT
+"ParAnisoSpMVTest4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/33 Testing: ParAnisoSpMVTest16
+14/33 Test: ParAnisoSpMVTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParAnisoSpMVTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParAnisoSpMVTest
+[ RUN      ] ParAnisoSpMVTest.TestsInUtil
+[       OK ] ParAnisoSpMVTest.TestsInUtil (279 ms)
+[----------] 1 test from ParAnisoSpMVTest (279 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (279 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (290 ms)
+[----------] 1 test from ParAnisoSpMVTest (290 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (290 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (279 ms)
+[----------] 1 test from ParAnisoSpMVTest (281 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (281 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (267 ms)
+[----------] 1 test from ParAnisoSpMVTest (267 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (267 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (290 ms)
+[----------] 1 test from ParAnisoSpMVTest (290 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (290 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (291 ms)
+[----------] 1 test from ParAnisoSpMVTest (291 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (291 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (290 ms)
+[----------] 1 test from ParAnisoSpMVTest (290 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (290 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (262 ms)
+[----------] 1 test from ParAnisoSpMVTest (262 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (262 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (267 ms)
+[----------] 1 test from ParAnisoSpMVTest (267 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (267 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (272 ms)
+[----------] 1 test from ParAnisoSpMVTest (272 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (272 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (290 ms)
+[----------] 1 test from ParAnisoSpMVTest (292 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (292 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (293 ms)
+[----------] 1 test from ParAnisoSpMVTest (293 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (293 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (302 ms)
+[----------] 1 test from ParAnisoSpMVTest (302 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (302 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (292 ms)
+[----------] 1 test from ParAnisoSpMVTest (292 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (292 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (275 ms)
+[----------] 1 test from ParAnisoSpMVTest (275 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (275 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParAnisoSpMVTest.TestsInUtil (274 ms)
+[----------] 1 test from ParAnisoSpMVTest (274 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (274 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.83 sec
+----------------------------------------------------------
+Test Passed.
+"ParAnisoSpMVTest16" end time: May 24 21:25 MDT
+"ParAnisoSpMVTest16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/33 Testing: ParRandomSpMVTest1
+15/33 Test: ParRandomSpMVTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_par_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParRandomSpMVTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[       OK ] ParRandomSpMVTest.TestsInUtil (0 ms)
+[----------] 1 test from ParRandomSpMVTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ParRandomSpMVTest1" end time: May 24 21:25 MDT
+"ParRandomSpMVTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/33 Testing: ParRandomSpMVTest4
+16/33 Test: ParRandomSpMVTest4
+Command: "/opt/homebrew/bin/mpirun" "-n" "4" "./test_par_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParRandomSpMVTest4" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[       OK ] ParRandomSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from ParRandomSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from ParRandomSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from ParRandomSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (1 ms)
+[----------] 1 test from ParRandomSpMVTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ParRandomSpMVTest4" end time: May 24 21:25 MDT
+"ParRandomSpMVTest4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/33 Testing: ParRandomSpMVTest16
+17/33 Test: ParRandomSpMVTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_par_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"ParRandomSpMVTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[==========] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParRandomSpMVTest
+[ RUN      ] ParRandomSpMVTest.TestsInUtil
+[       OK ] ParRandomSpMVTest.TestsInUtil (322 ms)
+[----------] 1 test from ParRandomSpMVTest (322 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (322 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (333 ms)
+[----------] 1 test from ParRandomSpMVTest (333 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (333 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (323 ms)
+[----------] 1 test from ParRandomSpMVTest (323 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (323 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (343 ms)
+[----------] 1 test from ParRandomSpMVTest (343 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (343 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (312 ms)
+[----------] 1 test from ParRandomSpMVTest (312 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (312 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (333 ms)
+[----------] 1 test from ParRandomSpMVTest (333 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (333 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (333 ms)
+[----------] 1 test from ParRandomSpMVTest (333 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (333 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (343 ms)
+[----------] 1 test from ParRandomSpMVTest (343 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (343 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (313 ms)
+[----------] 1 test from ParRandomSpMVTest (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (313 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (323 ms)
+[----------] 1 test from ParRandomSpMVTest (323 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (323 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (323 ms)
+[----------] 1 test from ParRandomSpMVTest (323 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (323 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (331 ms)
+[----------] 1 test from ParRandomSpMVTest (331 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (331 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (343 ms)
+[----------] 1 test from ParRandomSpMVTest (343 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (343 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (313 ms)
+[----------] 1 test from ParRandomSpMVTest (313 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (313 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (323 ms)
+[----------] 1 test from ParRandomSpMVTest (323 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (323 ms total)
+[  PASSED  ] 1 test.
+[       OK ] ParRandomSpMVTest.TestsInUtil (333 ms)
+[----------] 1 test from ParRandomSpMVTest (333 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (334 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.92 sec
+----------------------------------------------------------
+Test Passed.
+"ParRandomSpMVTest16" end time: May 24 21:25 MDT
+"ParRandomSpMVTest16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/33 Testing: TAPLaplacianSpMVTest1
+18/33 Test: TAPLaplacianSpMVTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_tap_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPLaplacianSpMVTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (5 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TAPLaplacianSpMVTest1" end time: May 24 21:25 MDT
+"TAPLaplacianSpMVTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/33 Testing: TAPLaplacianSpMVTest4
+19/33 Test: TAPLaplacianSpMVTest4
+Command: "/opt/homebrew/bin/mpirun" "-n" "4" "./test_tap_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPLaplacianSpMVTest4" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (8 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (8 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (8 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (8 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"TAPLaplacianSpMVTest4" end time: May 24 21:25 MDT
+"TAPLaplacianSpMVTest4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/33 Testing: TAPLaplacianSpMVTest8
+20/33 Test: TAPLaplacianSpMVTest8
+Command: "/opt/homebrew/bin/mpirun" "-n" "8" "./test_tap_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPLaplacianSpMVTest8" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (61 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (61 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (61 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (61 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (61 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (61 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (62 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (63 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (63 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (63 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (61 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (61 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (61 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (64 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (64 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (64 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (61 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (61 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (61 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (64 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (64 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (64 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"TAPLaplacianSpMVTest8" end time: May 24 21:25 MDT
+"TAPLaplacianSpMVTest8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/33 Testing: TAPLaplacianSpMVTest16
+21/33 Test: TAPLaplacianSpMVTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_tap_spmv_laplacian"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPLaplacianSpMVTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPLaplacianSpMVTest
+[ RUN      ] TAPLaplacianSpMVTest.TestsInUtil
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (942 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (942 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (942 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (952 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (952 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (952 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (942 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (942 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (942 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (945 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (945 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (945 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (918 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (918 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (918 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (944 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (945 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (945 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (933 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (933 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (933 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (940 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (940 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (941 ms total)[       OK ] TAPLaplacianSpMVTest.TestsInUtil (933 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (933 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (933 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (940 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (940 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (940 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (944 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (944 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (944 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (955 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (955 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (955 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (947 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (947 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (947 ms total)
+[  PASSED  ] 
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (946 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (946 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran.[  PASSED  ]  (946 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (934 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (934 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (934 ms total)
+[  PASSED  ] 1 test.
+1 test.
+[       OK ] TAPLaplacianSpMVTest.TestsInUtil (957 ms)
+[----------] 1 test from TAPLaplacianSpMVTest (957 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (958 ms total)
+[  PASSED  ] 1 test.
+1 test.
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"TAPLaplacianSpMVTest16" end time: May 24 21:25 MDT
+"TAPLaplacianSpMVTest16" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/33 Testing: TAPAnisoSpMVTest1
+22/33 Test: TAPAnisoSpMVTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_tap_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPAnisoSpMVTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from TAPAnisoSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TAPAnisoSpMVTest1" end time: May 24 21:25 MDT
+"TAPAnisoSpMVTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/33 Testing: TAPAnisoSpMVTest4
+23/33 Test: TAPAnisoSpMVTest4
+Command: "/opt/homebrew/bin/mpirun" "-n" "4" "./test_tap_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPAnisoSpMVTest4" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (4 ms)
+[----------] 1 test from TAPAnisoSpMVTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (4 ms)
+[----------] 1 test from TAPAnisoSpMVTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (4 ms)
+[----------] 1 test from TAPAnisoSpMVTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (4 ms)
+[----------] 1 test from TAPAnisoSpMVTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TAPAnisoSpMVTest4" end time: May 24 21:25 MDT
+"TAPAnisoSpMVTest4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/33 Testing: TAPAnisoSpMVTest8
+24/33 Test: TAPAnisoSpMVTest8
+Command: "/opt/homebrew/bin/mpirun" "-n" "8" "./test_tap_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPAnisoSpMVTest8" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (72 ms)
+[----------] 1 test from TAPAnisoSpMVTest (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (72 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (71 ms)
+[----------] 1 test from TAPAnisoSpMVTest (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (71 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (72 ms)
+[----------] 1 test from TAPAnisoSpMVTest (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (72 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (71 ms)
+[----------] 1 test from TAPAnisoSpMVTest (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (71 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (71 ms)
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (73 ms)
+[----------] 1 test from TAPAnisoSpMVTest (73 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (73 ms total)
+[  PASSED  ] 1 test.
+[----------] 1 test from TAPAnisoSpMVTest (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (72 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (73 ms)
+[----------] 1 test from TAPAnisoSpMVTest (73 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (73 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (72 ms)
+[----------] 1 test from TAPAnisoSpMVTest (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (72 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"TAPAnisoSpMVTest8" end time: May 24 21:25 MDT
+"TAPAnisoSpMVTest8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/33 Testing: TAPAnisoSpMVTest16
+25/33 Test: TAPAnisoSpMVTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_tap_spmv_aniso"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPAnisoSpMVTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPAnisoSpMVTest
+[ RUN      ] TAPAnisoSpMVTest.TestsInUtil
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (814 ms)
+[----------] 1 test from TAPAnisoSpMVTest (814 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (814 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (810 ms)
+[----------] 1 test from TAPAnisoSpMVTest (810 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (810 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (827 ms)
+[----------] 1 test from TAPAnisoSpMVTest (827 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (827 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (834 ms)
+[----------] 1 test from TAPAnisoSpMVTest (834 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (834 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (824 ms)
+[----------] 1 test from TAPAnisoSpMVTest (824 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (824 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (819 ms)
+[----------] 1 test from TAPAnisoSpMVTest (820 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (820 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (802 ms)
+[----------] 1 test from TAPAnisoSpMVTest (802 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (802 ms total)
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (823 ms)
+[----------] [       OK ] TAPAnisoSpMVTest.TestsInUtil (825 ms)
+[----------] 1 test from TAPAnisoSpMVTest (825 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (825 ms total)
+[  PASSED  ] 1 test.
+1 test from TAPAnisoSpMVTest (823 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (823 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (820 ms)
+[----------] 1 test from TAPAnisoSpMVTest (820 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (820 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (836 ms)
+[----------] 1 test from TAPAnisoSpMVTest (836 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (836 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (825 ms)
+[----------] 1 test from TAPAnisoSpMVTest (825 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (825 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (829 ms)
+[----------] 1 test from TAPAnisoSpMVTest (829 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (829 ms total)
+[  PASSED  ] 1 test.
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (822 ms)
+[----------] 1 test from TAPAnisoSpMVTest (822 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (822 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (822 ms)
+[----------] 1 test from TAPAnisoSpMVTest (822 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (822 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPAnisoSpMVTest.TestsInUtil (806 ms)
+[----------] 1 test from TAPAnisoSpMVTest (806 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (806 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.42 sec
+----------------------------------------------------------
+Test Passed.
+"TAPAnisoSpMVTest16" end time: May 24 21:25 MDT
+"TAPAnisoSpMVTest16" time elapsed: 00:00:01
+----------------------------------------------------------
+
+26/33 Testing: TAPRandomSpMVTest1
+26/33 Test: TAPRandomSpMVTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_tap_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPRandomSpMVTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[       OK ] TAPRandomSpMVTest.TestsInUtil (0 ms)
+[----------] 1 test from TAPRandomSpMVTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"TAPRandomSpMVTest1" end time: May 24 21:25 MDT
+"TAPRandomSpMVTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/33 Testing: TAPRandomSpMVTest4
+27/33 Test: TAPRandomSpMVTest4
+Command: "/opt/homebrew/bin/mpirun" "-n" "4" "./test_tap_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPRandomSpMVTest4" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[       OK ] TAPRandomSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from TAPRandomSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from TAPRandomSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from TAPRandomSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (2 ms)
+[----------] 1 test from TAPRandomSpMVTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TAPRandomSpMVTest4" end time: May 24 21:25 MDT
+"TAPRandomSpMVTest4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/33 Testing: TAPRandomSpMVTest8
+28/33 Test: TAPRandomSpMVTest8
+Command: "/opt/homebrew/bin/mpirun" "-n" "8" "./test_tap_spmv_random"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"TAPRandomSpMVTest8" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TAPRandomSpMVTest
+[ RUN      ] TAPRandomSpMVTest.TestsInUtil
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (59 ms)
+[----------] 1 test from TAPRandomSpMVTest (59 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+[       OK ] TAPRandomSpMVTest.TestsInUtil (65 ms)
+[----------] 1 test from TAPRandomSpMVTest (65 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (65 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"TAPRandomSpMVTest8" end time: May 24 21:25 MDT
+"TAPRandomSpMVTest8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/33 Testing: RepartitionTest1
+29/33 Test: RepartitionTest1
+Command: "/opt/homebrew/bin/mpirun" "-n" "1" "./test_repartition"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"RepartitionTest1" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[       OK ] Repartition.TestsInUtil (2 ms)
+[----------] 1 test from Repartition (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"RepartitionTest1" end time: May 24 21:25 MDT
+"RepartitionTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/33 Testing: RepartitionTest2
+30/33 Test: RepartitionTest2
+Command: "/opt/homebrew/bin/mpirun" "-n" "2" "./test_repartition"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"RepartitionTest2" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[ RUN      ] Repartition.TestsInUtil
+[       OK ] Repartition.TestsInUtil (1 ms)
+[----------] 1 test from Repartition (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1 ms)
+[----------] 1 test from Repartition (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"RepartitionTest2" end time: May 24 21:25 MDT
+"RepartitionTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/33 Testing: RepartitionTest3
+31/33 Test: RepartitionTest3
+Command: "/opt/homebrew/bin/mpirun" "-n" "3" "./test_repartition"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"RepartitionTest3" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[       OK ] Repartition.TestsInUtil (1 ms)
+[----------] 1 test from Repartition (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1 ms)
+[----------] 1 test from Repartition (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1 ms)
+[----------] 1 test from Repartition (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"RepartitionTest3" end time: May 24 21:25 MDT
+"RepartitionTest3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/33 Testing: RepartitionTest6
+32/33 Test: RepartitionTest6
+Command: "/opt/homebrew/bin/mpirun" "-n" "6" "./test_repartition"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"RepartitionTest6" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[       OK ] Repartition.TestsInUtil (10 ms)
+[----------] 1 test from Repartition (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (9 ms)
+[----------] 1 test from Repartition (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (9 ms)
+[----------] 1 test from Repartition (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (10 ms)
+[----------] 1 test from Repartition (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)[       OK ] Repartition.TestsInUtil (10 ms)
+[----------] 1 test from Repartition (10 ms total)
+
+
+[  PASSED  ] 1 test.
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (9 ms)
+[----------] 1 test from Repartition (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"RepartitionTest6" end time: May 24 21:25 MDT
+"RepartitionTest6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/33 Testing: RepartitionTest16
+33/33 Test: RepartitionTest16
+Command: "/opt/homebrew/bin/mpirun" "-n" "16" "./test_repartition"
+Directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/tests
+"RepartitionTest16" start time: May 24 21:25 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] [==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Repartition
+[ RUN      ] Repartition.TestsInUtil
+[       OK ] Repartition.TestsInUtil (1471 ms)
+[----------] 1 test from Repartition (1471 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1471 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1471 ms)
+[----------] 1 test from Repartition (1471 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1471 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1463 ms)
+[----------] 1 test from Repartition (1463 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1463 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1453 ms)
+[----------] 1 test from Repartition (1453 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1453 ms total)[       OK ] Repartition.TestsInUtil (1471 ms)
+[----------] 1 test from Repartition (1471 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1471 ms total)
+[  PASSED  ] 1 test.
+
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1471 ms)
+[----------] 1 test from Repartition (1471 ms total)
+
+[       OK ] Repartition.TestsInUtil (1463 ms)
+[----------] 1 test from Repartition (1463 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran.[----------] Global test environment tear-down
+[==========]  (1463 ms total)
+[  PASSED  ] 1 test from 1 test suite ran. (1471 ms total)
+[  PASSED  ] 1 test.
+1 test.
+[       OK ] Repartition.TestsInUtil (1467 ms)
+[----------] 1 test from Repartition (1467 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1467 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1472 ms)
+[----------] 1 test from Repartition (1472 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1472 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1445 ms)
+[----------] 1 test from Repartition (1445 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1445 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1464 ms)
+[----------] 1 test from Repartition (1464 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1464 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1472 ms)
+[----------] 1 test from Repartition (1472 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1472 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1465 ms)
+[----------] 1 test from Repartition (1465 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1465 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1462 ms)
+[----------] 1 test from Repartition (1464 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1464 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1462 ms)
+[----------] 1 test from Repartition (1462 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1462 ms total)
+[  PASSED  ] 1 test.
+[       OK ] Repartition.TestsInUtil (1454 ms)
+[----------] 1 test from Repartition (1454 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1454 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.08 sec
+----------------------------------------------------------
+Test Passed.
+"RepartitionTest16" end time: May 24 21:25 MDT
+"RepartitionTest16" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: May 24 21:25 MDT
