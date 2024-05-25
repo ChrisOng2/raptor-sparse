@@ -13,26 +13,27 @@ int main(int argc, char** argv)
 
 TEST(AnisoTest, TestsInGallery)
 {
-
-
     int start, end;
+
+    std::string folder = RAPTOR_SPARSE_TEST_FOLDER;
+    std::string file = folder + "aniso.pm";
 
     int grid[2] = {25, 25};
     double eps = 0.001;
     double theta = M_PI/8.0;
     double* stencil = diffusion_stencil_2d(eps, theta);
     CSRMatrix* A_sten = stencil_grid(stencil, grid, 2);
-    CSRMatrix* A_io = readMatrix("../../../../test_data/aniso.pm");
+    CSRMatrix* A_io = readMatrix(file.c_str());
 
     // Compare shapes
     ASSERT_EQ(A_io->n_rows, A_sten->n_rows);
     ASSERT_EQ(A_io->n_cols, A_sten->n_cols);
 
     A_sten->sort();
-    //A_sten->remove_duplicates();
+    A_sten->remove_duplicates();
 
     A_io->sort();
-    //A_io->remove_duplicates();
+    A_io->remove_duplicates();
 
     ASSERT_EQ(A_sten->idx1[0], A_io->idx1[0]);
     for (int i = 0; i < A_io->n_rows; i++)
@@ -47,7 +48,7 @@ TEST(AnisoTest, TestsInGallery)
         for (int j = start; j < end; j++)
         {
             ASSERT_EQ(A_sten->idx2[j], A_io->idx2[j]);
-            //ASSERT_NEAR(A_sten->vals[j], A_io->vals[j], 1e-12);
+            ASSERT_NEAR(A_sten->vals[j], A_io->vals[j], 1e-12);
         }
     }
 

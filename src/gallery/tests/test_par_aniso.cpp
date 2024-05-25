@@ -21,8 +21,8 @@ TEST(ParAnisoTest, TestsInGallery)
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &num_procs);
 
-    const char* A0_fn = "../../../../test_data/aniso.pm";
-
+    std::string folder = RAPTOR_SPARSE_TEST_FOLDER;
+    std::string file = folder + "aniso.pm";
 
     int start, end;
     int grid[2] = {25, 25};
@@ -30,7 +30,7 @@ TEST(ParAnisoTest, TestsInGallery)
     double theta = M_PI/8.0;
     double* stencil = diffusion_stencil_2d(eps, theta);
     ParCSRMatrix* A_sten = par_stencil_grid(stencil, grid, 2);
-    ParCSRMatrix* A_io = readParMatrix(A0_fn);
+    ParCSRMatrix* A_io = readParMatrix(file.c_str());
 
     // Compare shapes
     ASSERT_EQ(A_io->global_num_rows, A_sten->global_num_rows);

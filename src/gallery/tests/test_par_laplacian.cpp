@@ -21,14 +21,14 @@ TEST(ParLaplacianTest, TestsInGallery)
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &num_procs);
 
-
+    std::string folder = RAPTOR_SPARSE_TEST_FOLDER;
+    std::string file = folder + "laplacian27.pm";
 
     int start, end;
     int grid[3] = {10, 10, 10};
     double* stencil = laplace_stencil_27pt();
     ParCSRMatrix* A_sten = par_stencil_grid(stencil, grid, 3);
-
-    ParCSRMatrix* A_io = readParMatrix("../../../../test_data/laplacian27.pm");
+    ParCSRMatrix* A_io = readParMatrix(file.c_str());
 
     // Compare shapes
     ASSERT_EQ(A_io->global_num_rows, A_sten->global_num_rows);

@@ -22,16 +22,17 @@ TEST(ParAnisoTest, TestsInGallery)
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &num_procs);
 
-    const char* f_in = "../../../../test_data/sas_P0.mtx";
-    const char* f_out = "../../../../test_data/sas_P0_out.mtx";
+    std::string folder = RAPTOR_SPARSE_TEST_FOLDER;
+    std::string file_in = folder + "sas_P0.mtx";
+    std::string file_out = folder + "sas_P0_out.mtx";
 
-    ParCSRMatrix* Amm = read_par_mm(f_in);
-
-    MPI_Barrier(MPI_COMM_WORLD);
-    write_par_mm(Amm, f_out);
+    ParCSRMatrix* Amm = read_par_mm(file_in.c_str());
 
     MPI_Barrier(MPI_COMM_WORLD);
-    ParCSRMatrix* Amm_out = read_par_mm(f_out);
+    write_par_mm(Amm, file_out.c_str());
+
+    MPI_Barrier(MPI_COMM_WORLD);
+    ParCSRMatrix* Amm_out = read_par_mm(file_out.c_str());
     
     MPI_Barrier(MPI_COMM_WORLD);
     compare(Amm, Amm_out);
@@ -39,7 +40,7 @@ TEST(ParAnisoTest, TestsInGallery)
     // Diff the two mtx files 
     if (rank == 0)
     {
-        remove(f_out);
+        remove(file_out.c_str());
     }
 
     delete Amm_out;

@@ -15,24 +15,25 @@ int main(int argc, char** argv)
 
 TEST(AnisoTest, TestsInGallery)
 {
-    const char* f_in = "../../../../test_data/sas_P0.mtx";
-    const char* f_out = "../../../../test_data/sas_P0_out.mtx";
-    CSRMatrix* Amm = read_mm(f_in);
-    write_mm(Amm, f_out);
-    CSRMatrix* Amm_out = read_mm(f_out);
+    std::string folder = RAPTOR_SPARSE_TEST_FOLDER;
+    std::string file_in = folder + "sas_P0.mtx";
+    CSRMatrix* Amm = read_mm(file_in.c_str());
+    std::string file_out = folder + "sas_P0_out.mtx";
+    write_mm(Amm, file_out.c_str());
+    CSRMatrix* Amm_out = read_mm(file_out.c_str());
     compare(Amm, Amm_out);
 
     // Diff the two mtx files 
     std::string command = "diff ";
-    command += f_in;
+    command += file_in.c_str();
     command += " ";
-    command += f_out;
+    command += file_out.c_str();
     int err = system(command.c_str());
     ASSERT_EQ(err, 0);
 
-
-    remove(f_out);
+    remove(file_out.c_str());
      
+    delete Amm_out;
     delete Amm;
 } // end of TEST(AnisoTest, TestsInGallery) //
 

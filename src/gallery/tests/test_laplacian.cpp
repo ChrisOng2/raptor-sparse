@@ -16,12 +16,14 @@ TEST(LaplacianTest, TestsInGallery)
 {
     int start, end;
 
+    std::string folder = RAPTOR_SPARSE_TEST_FOLDER;
+    std::string file = folder + "laplacian.pm";
+
     int grid[3] = {10, 10, 10};
     double* stencil = laplace_stencil_27pt();
     CSRMatrix* A_sten = stencil_grid(stencil, grid, 3);
 
-    const char* mat_fn = "../../../../test_data/laplacian.pm";
-    CSRMatrix* A_io = readMatrix(mat_fn);
+    CSRMatrix* A_io = readMatrix(file.c_str());
 
     // Compare shapes
     ASSERT_EQ(A_io->n_rows, A_sten->n_rows);
