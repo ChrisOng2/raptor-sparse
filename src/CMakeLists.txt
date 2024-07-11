@@ -2,6 +2,22 @@ add_subdirectory(core)
 add_subdirectory(gallery)
 add_subdirectory(util)
 
+
+set(sparse_HEADERS
+    ${core_HEADERS}
+    ${gallery_HEADERS}
+    ${ext_gallery_HEADERS}
+    ${util_HEADERS}
+    PARENT_SCOPE
+)
+
+set(sparse_SOURCES
+    ${core_SOURCES}
+    ${gallery_SOURCES}
+    ${util_SOURCES}
+    PARENT_SCOPE
+)
+
 add_library(raptor-sparse ${core_SOURCES} ${core_HEADERS} 
 	${gallery_SOURCES} ${gallery_HEADERS} ${ext_gallery_HEADERS} 
 	${util_SOURCES} ${util_HEADERS}
