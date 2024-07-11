@@ -1,6 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/src/util/linalg
-# Build directory: /Users/bienz/Documents/Programs/raptor_master/raptor-sparse/build/src/util/linalg
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
