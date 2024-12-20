@@ -45,7 +45,6 @@ SET(PARMETIS_DIR "" CACHE STRING "Directory of ParMetis")
 SET(HOSTFILE "" CACHE STRING "Set Hostfile")
 SET(BLAS_PATH "" CACHE STRING "/usr/linb/x86_64-linux-gnu")
 SET(LAPACK_PATH "" CACHE STRING "/usr/linb/x86_64-linux-gnu")
-SET(MPIRUN_FLAGS "" CACHE STRING "Flags required to run 1 to 16 mpi procs")
 
 find_library(LAPACK_LIB NAMES liblapack.so.3 lapack HINTS ${LAPACK_PATH})
 find_library(BLAS_LIB NAMES libblas.so.3 blas HINTS ${BLAS_PATH})
