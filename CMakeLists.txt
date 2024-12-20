@@ -34,7 +34,8 @@ if (WITH_MPI)
     SET(MPIRUN mpirun)
 endif (WITH_MPI)
 
-set(raptor_sparse_INCDIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+set(raptor_sparse_DIR raptor-sparse/src)
+set(raptor_sparse_INCDIR ${CMAKE_CURRENT_SOURCE_DIR}/${raptor_sparse_DIR})
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
 SET(MFEM_DIR "" CACHE STRING "Directory of mfem")
@@ -42,9 +43,12 @@ SET(MFEM_MESH_DIR "" CACHE STRING "Directory containing MFEM mesh files")
 SET(PTSCOTCH_DIR "" CACHE STRING "Directory of Ptscotch")
 SET(PARMETIS_DIR "" CACHE STRING "Directory of ParMetis")
 SET(HOSTFILE "" CACHE STRING "Set Hostfile")
+SET(BLAS_PATH "" CACHE STRING "/usr/linb/x86_64-linux-gnu")
+SET(LAPACK_PATH "" CACHE STRING "/usr/linb/x86_64-linux-gnu")
+SET(MPIRUN_FLAGS "" CACHE STRING "Flags required to run 1 to 16 mpi procs")
 
-find_library(LAPACK_LIB NAMES liblapack.so.3 lapack HINTS "/usr/lib/x86_64-linux-gnu/")
-find_library(BLAS_LIB NAMES libblas.so.3 blas HINTS "/usr/lib/x86_64-linux-gnu/")
+find_library(LAPACK_LIB NAMES liblapack.so.3 lapack HINTS ${LAPACK_PATH})
+find_library(BLAS_LIB NAMES libblas.so.3 blas HINTS ${BLAS_PATH})
 set(EXTERNAL_LIBS ${LAPACK_LIB} ${BLAS_LIB})
 
 if (WITH_HOSTFILE)
@@ -103,14 +107,10 @@ if (DOXYGEN_FOUND)
     set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile.out)
     configure_file(${DOXYGEN_IN} ${DOXYGEN_OUT} @ONLY)
 
-    message("build Doxygen files")
-
     add_custom_target(docs
         COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYGEN_OUT}
         WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
         COMMENT "generating Doxygen output"
         VERBATIM
         )
-else (DOXYGEN_FOUND)
-    message("Doxygen required")
 endif (DOXYGEN_FOUND)

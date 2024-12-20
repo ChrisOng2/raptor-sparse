@@ -127,6 +127,7 @@ ParCSRMatrix* read_par_mm(const char *fname)
         }
     }
 
+
     A->finalize();
     ParCSRMatrix* A_csr = A->to_ParCSR();
     delete A;
@@ -183,6 +184,7 @@ void write_par_mm(ParCSRMatrix* A, const char *fname)
     dims[4] = A->off_proc->nnz;
     RAPtor_MPI_Gather(dims, 5, RAPtor_MPI_INT, proc_dims.data(), 5, RAPtor_MPI_INT, 0, RAPtor_MPI_COMM_WORLD);
 
+
     if (rank == 0) // RANK 0 IS ONLY ONE WRITING TO FILE
     {
         f = fopen(fname, "w");
@@ -202,9 +204,13 @@ void write_par_mm(ParCSRMatrix* A, const char *fname)
         write_par_data(f, A->local_num_rows, A->on_proc->idx1.data(),
                 A->on_proc->idx2.data(), A->on_proc->vals.data(),
                 first_row, A->on_proc_column_map.data());
-        write_par_data(f, A->local_num_rows, A->off_proc->idx1.data(),
+
+	if (A->off_proc->n_rows && A->off_proc->n_cols)
+	{
+            write_par_data(f, A->local_num_rows, A->off_proc->idx1.data(),
                 A->off_proc->idx2.data(), A->off_proc->vals.data(),
                 first_row, A->off_proc_column_map.data());
+	}
         first_row += A->local_num_rows;
 
         // Write data from other processes
@@ -268,7 +274,6 @@ void write_par_mm(ParCSRMatrix* A, const char *fname)
 
             first_row += i_dims[0] - 1;
         }
-
         fclose(f);
     }
     else // All processes that are not 0, send to 0
