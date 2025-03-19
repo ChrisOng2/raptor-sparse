@@ -52,7 +52,7 @@ namespace raptor
     enum interp_t {Direct, ModClassical, Extended};
     enum agg_t {MIS};
     enum prolong_t {JacobiProlongation};
-    enum relax_t {Jacobi, SOR, SSOR};
+    enum relax_t {Jacobi, SOR};
 
     template<typename T, typename U>
     U sum_func(const U& a, const T&b)
