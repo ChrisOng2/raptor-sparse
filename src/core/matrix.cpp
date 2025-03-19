@@ -883,6 +883,9 @@ void remove_duplicates_helper(COOMatrix* A, std::vector<T>& vals)
         A->diag_first = false;
     }
 
+    if (A->nnz == 0)
+        return;
+
     int prev_row, prev_col, ctr;
     int row, col;
 

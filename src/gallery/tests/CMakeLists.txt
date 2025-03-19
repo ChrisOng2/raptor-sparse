@@ -20,16 +20,18 @@ if (WITH_MPI)
     target_link_libraries(test_par_laplacian raptor-sparse ${MPI_LIBRARIES} googletest pthread )
     add_test(ParLaplacianTest1 ${MPIRUN} -n 1 ${HOST} ./test_par_laplacian)
     add_test(ParLaplacianTest2 ${MPIRUN} -n 2 ${HOST} ./test_par_laplacian)
+    add_test(ParLaplacianTest8 ${MPIRUN} -n 8 ${HOST} ./test_par_laplacian)
 
     add_executable(test_par_aniso test_par_aniso.cpp)
     target_link_libraries(test_par_aniso raptor-sparse ${MPI_LIBRARIES} googletest pthread )
     add_test(ParAnisoTest1 ${MPIRUN} -n 1 ${HOST} ./test_par_aniso)
     add_test(ParAnisoTest2 ${MPIRUN} -n 2 ${HOST} ./test_par_aniso)
+    add_test(ParAnisoTest8 ${MPIRUN} -n 8 ${HOST} ./test_par_aniso)
 
     add_executable(test_par_matrix_market test_par_matrix_market.cpp)
     target_link_libraries(test_par_matrix_market raptor-sparse ${MPI_LIBRARIES} googletest pthread )
     ## TODO BUG IN MATRIX MARKET FOR NP=1
-    #add_test(ParMatrixMarketTest1 ${MPIRUN} -n 1 ${HOST} ./test_par_matrix_market)
+    add_test(ParMatrixMarketTest1 ${MPIRUN} -n 1 ${HOST} ./test_par_matrix_market)
     add_test(ParMatrixMarketTest2 ${MPIRUN} -n 2 ${HOST} ./test_par_matrix_market)
 endif()
 
