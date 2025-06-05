@@ -95,7 +95,11 @@ add_subdirectory(src)
 #  add_subdirectory(examples)
 #endif()
 
-find_package(Doxygen)
+if (BUILD_EXAMPLES)
+    add_subdirectory(benchmarks)
+endif()
+
+#[[find_package(Doxygen)
 
 if (DOXYGEN_FOUND)
     # make the output directory
@@ -112,4 +116,4 @@ if (DOXYGEN_FOUND)
         COMMENT "generating Doxygen output"
         VERBATIM
         )
-endif (DOXYGEN_FOUND)
+endif (DOXYGEN_FOUND)]]

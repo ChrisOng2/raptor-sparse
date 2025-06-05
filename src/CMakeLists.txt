@@ -1,6 +1,7 @@
 add_subdirectory(core)
 add_subdirectory(gallery)
 add_subdirectory(util)
+add_subdirectory(timing)
 
 
 set(sparse_HEADERS
@@ -8,6 +9,7 @@ set(sparse_HEADERS
     ${gallery_HEADERS}
     ${ext_gallery_HEADERS}
     ${util_HEADERS}
+    ${timing_HEADERS}
     PARENT_SCOPE
 )
 
@@ -15,13 +17,14 @@ set(sparse_SOURCES
     ${core_SOURCES}
     ${gallery_SOURCES}
     ${util_SOURCES}
+    ${timing_SOURCES}
     PARENT_SCOPE
 )
 
 add_library(raptor-sparse ${core_SOURCES} ${core_HEADERS} 
 	${gallery_SOURCES} ${gallery_HEADERS} ${ext_gallery_HEADERS} 
-	${util_SOURCES} ${util_HEADERS}
-    )
+	${util_SOURCES} ${util_HEADERS} ${timing_SOURCES} ${util_HEADERS}
+)
 target_link_libraries(raptor-sparse PUBLIC ${MPI_C_LIBRARIES} ${METIS_LIBRARIES} 
     ${PTSCOTCH_LIBRARIES} ${PARMETIS_LIBRARIES} ${EXTERNAL_LIBS})
 
@@ -39,6 +42,7 @@ install(FILES raptor.hpp DESTINATION "include/raptor-sparse")
 install(FILES ${core_HEADERS} DESTINATION "include/raptor-sparse/core")
 install(FILES ${gallery_HEADERS}  DESTINATION "include/raptor-sparse/gallery")
 install(FILES ${util_HEADERS} DESTINATION "include/raptor-sparse/util/linalg")
+install(FILES ${timing_HEADERS} DESTINATION "include/raptor-sparse/timing")
 install(EXPORT raptor-sparseTargets
     FILE raptor-sparseTargets.cmake
   NAMESPACE "raptor::"
