@@ -9,6 +9,9 @@ if (WITH_MPI)
 
     add_executable(benchmark_par_block_spmv benchmark_par_block_spmv.cpp)
     target_link_libraries(benchmark_par_block_spmv raptor-sparse ${MPI_LIBRARIES})
+
+    add_executable(benchmark_par_spmv_timing_mod benchmark_par_spmv_timing_mod.cpp)
+    target_link_libraries(benchmark_par_spmv_timing_mod raptor-sparse ${MPI_LIBRARIES})
 endif()
 
 
