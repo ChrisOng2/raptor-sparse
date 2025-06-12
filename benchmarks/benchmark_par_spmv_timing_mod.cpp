@@ -389,7 +389,6 @@ int main(int argc, char *argv[])
 
     // Clean up for partitioning matrices, vectors, and objects
     delete A_part;
-    delete b_part;
     delete A_off_part;
     delete[] parmetis_part;
 
