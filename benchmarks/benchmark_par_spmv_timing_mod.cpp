@@ -7,6 +7,7 @@
 #include <assert.h>
 
 #include "src/raptor-sparse.hpp"
+#include "src/timing/NodeAwareModel.h"
 
 #ifdef USING_MFEM
 #include "raptor/external/mfem_wrapper.hpp"
