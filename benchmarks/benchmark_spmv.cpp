@@ -6,7 +6,7 @@
 #include <assert.h>
 #include <ctime>
 
-#include "raptor-sparse.hpp"
+#include "src/raptor-sparse.hpp"
 
 using namespace raptor;
 
