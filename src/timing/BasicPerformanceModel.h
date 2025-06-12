@@ -5,7 +5,7 @@
 #ifndef BASICPERFORMANCEMODEL_H
 #define BASICPERFORMANCEMODEL_H
 
-#include "raptor-sparse.hpp"
+#include "src/raptor-sparse.hpp"
 #include <iostream>
 #include <cmath>
 #include <vector>
