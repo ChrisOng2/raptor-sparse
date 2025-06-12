@@ -8,7 +8,7 @@
 #define PPS 16
 #define SPN 2
 
-#include "raptor-sparse.hpp"
+#include "src/raptor-sparse.hpp"
 #include <iostream>
 
 double NodeAwareModel(ParCSRMatrix A) {
