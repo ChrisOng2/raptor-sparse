@@ -6,7 +6,7 @@
 #include <iostream>
 #include <assert.h>
 
-#include "raptor-sparse.hpp"
+#include "src/raptor-sparse.hpp"
 
 #ifdef USING_MFEM
 #include "raptor/external/mfem_wrapper.hpp"
