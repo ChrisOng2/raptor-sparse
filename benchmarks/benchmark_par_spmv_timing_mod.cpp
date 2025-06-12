@@ -337,17 +337,27 @@ int main(int argc, char *argv[])
     /************************
     **** Time RAPtor SpMV
     ************************/
-    // Creating new variables to be used for SpMV partition comparisons
-//    ParCSRMatrix* A_part  = A.copy();
-//    ParVector b_part      = ParVector(A->global_num_rows, A->local_num_rows);
-//    CSCMatrix* A_off_part = A->off_proc->to_CSC();
-//    int* parmetis_part;
-//
-//    MPI_Barrier(MPI_COMM_WORLD);
-//    double t0_parmetis = MPI_Wtime();
-//    parmetis_part = parmetis_partition(A_part);
-//	double tfinal_parmetis = MPI_Wtime() - t0_parmetis;
-//    MPI_Allreduce(&tfinal_parmetis, &t0_parmetis, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
+    // Start of using parmetis for partitioning and gaining time for partition
+    int* parmetis_part;
+    MPI_Barrier(MPI_COMM_WORLD);
+    double t0_parmetis = MPI_Wtime();
+    parmetis_part = parmetis_partition(A);
+    double tfinal_parmetis = MPI_Wtime() - t0_parmetis;
+    MPI_Allreduce(&tfinal_parmetis, &t0_parmetis, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
+
+    // Construction of a new matrix and corresponding repartition variables
+    // Need to understand what new_local_rows is doing. Seems to be a return variable
+    std::vector<int> new_local_rows;
+    ParCSRMatrix* A_part  = repartition_matrix(A, parmetis_part, new_local_rows);
+    ParVector b_part      = ParVector(A_part->global_num_rows, A_part->local_num_rows);
+    CSCMatrix* A_off_part = A_part->off_proc->to_CSC();
+
+    // Timing for the repartition with parmetis
+    double par_metis_estimate = NodeAwareModel(A);
+
+    // Timing for origional partition
+    double par_original_estimate = NodeAwareModel(A);
+
     // Warm-up
     A->mult(x, b);
 
