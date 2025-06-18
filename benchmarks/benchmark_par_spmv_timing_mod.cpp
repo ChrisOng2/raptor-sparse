@@ -354,11 +354,28 @@ int main(int argc, char *argv[])
     CSCMatrix* A_off_part = A_part->off_proc->to_CSC();
 
     // Timing for the repartition with parmetis
-    double par_metis_estimate = NodeAwareModel(A);
+    double par_metis_estimate = NodeAwareModel(A_part);
 
+    MPI_Barrier(MPI_COMM_WORLD);
+    double t0_parmetis_mult = MPI_Wtime();
+    A_part->mult(x, b_part);
+    double tfinal_parmetis_mult = MPI_Wtime() - t0_parmetis_mult;
+    MPI_Allreduce(&tfinal_parmetis_mult, &t0_parmetis_mult, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
+    
     // Timing for origional partition
     double par_original_estimate = NodeAwareModel(A);
 
+    MPI_Barrier(MPI_COMM_WORLD);
+    double t0_mult = MPI_Wtime();
+    A->mult(x, b);
+    double tfinal_mult = MPI_Wtime() - t0_mult;
+    MPI_Allreduce(&tfinal_mult, &t0_mult, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
+    
+    if (rank == 0) {
+        std::cout << "PARMETIS Partitioning Max Timing: " << t0_parmetis << " Seconds" << std::endl;
+        std::cout << "PARMETIS Mult Predicted Timing: " << par_metis_estimate << " Seconds, Measured Timing: " << t0_parmetis_mult << " Seconds" << std::endl;
+        std::cout << "RAPTOR Mult Predicted Timing: " << par_original_estimate << " Seconds, Measured Timing: " << t0_mult << " Seconds" << std::endl;
+    }
     // Warm-up
     A->mult(x, b);
 
