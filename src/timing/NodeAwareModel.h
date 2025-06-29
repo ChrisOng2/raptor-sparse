@@ -11,14 +11,14 @@
 #include "src/raptor-sparse.hpp"
 #include <iostream>
 
-double NodeAwareModel(ParCSRMatrix A) {
+double NodeAwareModel(ParCSRMatrix* A) {
     double T = 0;
 
-    for (int i = 0; i < A.comm->send_data->num_msgs; i++) {
+    for (int i = 0; i < A->comm->send_data->num_msgs; i++) {
         double Alpha = 0;
         double Beta = 0;
-        int proc =  A.comm->send_data->procs[i];
-        int msg_size = A.comm->send_data->size_msgs;
+        int proc =  A->comm->send_data->procs[i];
+        int msg_size = A->comm->send_data->size_msgs;
         int rank = i;
 
         if (proc/PPS == rank/PPS) {
