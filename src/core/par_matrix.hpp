@@ -239,6 +239,7 @@ namespace raptor
 
     int* map_partition_to_local();
     void condense_off_proc();
+    std::vector<double> GlobaltoLocalIndex();
 
     void residual(ParVector& x, ParVector& b, ParVector& r, bool tap = false);
     void tap_residual(ParVector& x, ParVector& b, ParVector& r);

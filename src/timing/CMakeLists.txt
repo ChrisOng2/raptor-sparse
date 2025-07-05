@@ -5,7 +5,8 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 if (WITH_MPI)
     set(timing_HEADERS
             timing/NodeAwareModel.h
-            timing/BasicPerformanceModel.hpp
+            timing/BasicPerformanceModel.h
+            timing/partitioning_timing.h
     )
     set(timing_SOURCES
             ""
@@ -21,7 +22,8 @@ endif()
 
 set(timing_HEADERS
         timing/NodeAwareModel.h
-        timing/BasicPerformanceModel.hpp
+        timing/BasicPerformanceModel.h
+        timing/partitioning_timing.h
         ${timing_HEADERS}
         PARENT_SCOPE)
 
