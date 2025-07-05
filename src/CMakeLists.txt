@@ -24,7 +24,6 @@ set(sparse_SOURCES
 add_library(raptor-sparse ${core_SOURCES} ${core_HEADERS} 
 	${gallery_SOURCES} ${gallery_HEADERS} ${ext_gallery_HEADERS} 
 	${util_SOURCES} ${util_HEADERS} ${timing_SOURCES} ${util_HEADERS}
-        timing/partitioning_timing.h
 )
 target_link_libraries(raptor-sparse PUBLIC ${MPI_C_LIBRARIES} ${METIS_LIBRARIES} 
     ${PTSCOTCH_LIBRARIES} ${PARMETIS_LIBRARIES} ${EXTERNAL_LIBS})
